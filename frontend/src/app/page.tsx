@@ -10,16 +10,16 @@ export default async function Home() {
   //   },
   // });
 
-  const result = await fetch(`${API_URL}/api/tests`, {
-    headers: {
-      Authorization: `Bearer ${API_TOKEN}`,
-      "Content-type": "multipart/form-data"
-    },
-  });
+  // const result = await fetch(`${API_URL}/api/tests`, {
+  //   headers: {
+  //     Authorization: `Bearer ${API_TOKEN}`,
+  //     "Content-type": "multipart/form-data"
+  //   },
+  // });
 
-  const { data } = await result.json();
-  console.log(data);
+  // const { data } = await result.json();
+  // console.log(data);
   return (
-    <div>Test</div>
+    <div>Hello World</div>
   );
 }

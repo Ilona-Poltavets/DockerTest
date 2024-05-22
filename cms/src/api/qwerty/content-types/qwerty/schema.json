@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qwerties",
+  "info": {
+    "singularName": "qwerty",
+    "pluralName": "qwerties",
+    "displayName": "Qwerty"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qwertywqerty": {
+      "type": "string"
+    }
+  }
+}
